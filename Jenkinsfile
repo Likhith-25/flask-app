@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch: 'master', url: 'https://github.com/Likhith-23/flask-app.git'
+                git branch: 'master', url: 'https://github.com/Likhith-25/flask-app.git'
             }
         }
         
