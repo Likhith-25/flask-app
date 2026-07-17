@@ -1,1 +1,3 @@
-
+sudo docker create service --name app1 --replicas:2 8000:80 image
+Unable to find image 'service:latest' locally
+Error response from daemon: pull access denied for service, repository does not exist or may require 'docker login'
