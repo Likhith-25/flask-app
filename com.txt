@@ -1,1 +1,20 @@
 
+nano Vagrantfile
+mca@administrator:~/inter-flask$ vagrant up
+/opt/vagrant/embedded/lib/ruby/3.3.0/fileutils.rb:402:in `mkdir': Permission denied @ dir_s_mkdir - /home/mca/inter-flask/.vagrant/machines (Errno::EACCES)
+	from /opt/vagrant/embedded/lib/ruby/3.3.0/fileutils.rb:402:in `fu_mkdir'
+	from /opt/vagrant/embedded/lib/ruby/3.3.0/fileutils.rb:380:in `block (2 levels) in mkdir_p'
+	from /opt/vagrant/embedded/lib/ruby/3.3.0/fileutils.rb:378:in `reverse_each'
+	from /opt/vagrant/embedded/lib/ruby/3.3.0/fileutils.rb:378:in `block in mkdir_p'
+	from /opt/vagrant/embedded/lib/ruby/3.3.0/fileutils.rb:370:in `each'
+	from /opt/vagrant/embedded/lib/ruby/3.3.0/fileutils.rb:370:in `mkdir_p'
+	from /opt/vagrant/embedded/gems/gems/vagrant-2.4.9/lib/vagrant/vagrantfile.rb:80:in `machine'
+	from /opt/vagrant/embedded/gems/gems/vagrant-2.4.9/lib/vagrant/environment.rb:756:in `machine'
+	from /opt/vagrant/embedded/gems/gems/vagrant-2.4.9/lib/vagrant/plugin/v2/command.rb:183:in `block in with_target_vms'
+	from /opt/vagrant/embedded/gems/gems/vagrant-2.4.9/lib/vagrant/plugin/v2/command.rb:207:in `block in with_target_vms'
+	from /opt/vagrant/embedded/gems/gems/vagrant-2.4.9/lib/vagrant/plugin/v2/command.rb:189:in `each'
+	from /opt/vagrant/embedded/gems/gems/vagrant-2.4.9/lib/vagrant/plugin/v2/command.rb:189:in `with_target_vms'
+	from /opt/vagrant/embedded/gems/gems/vagrant-2.4.9/plugins/commands/up/command.rb:88:in `execute'
+	from /opt/vagrant/embedded/gems/gems/vagrant-2.4.9/lib/vagrant/cli.rb:67:in `execute'
+	from /opt/vagrant/embedded/gems/gems/vagrant-2.4.9/lib/vagrant/environment.rb:317:in `cli'
+	from /opt/vagrant/embedded/gems/gems/vagrant-2.4.9/bin/vagrant:238:in `<main>'
