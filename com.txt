@@ -1,1 +1,5 @@
 sudo chown -R mca:mca /home/mca/inter-flask
+OR
+
+sudo chown -R $(whoami):$(whoami) /home/mca/inter-flask
+vagrant up
