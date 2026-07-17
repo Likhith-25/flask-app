@@ -6,3 +6,7 @@ Usage:  docker swarm
 Run 'docker swarm --help' for more information
 //CORRECT
 docker swarm init --advertise-addr 192.168.56.10
+
+
+ docker swarm init --advertise-addr 192.168.56.10
+permission denied while trying to connect to the docker API at unix:///var/run/docker.sock
