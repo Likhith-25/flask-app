@@ -1,5 +1,6 @@
-sudo chown -R mca:mca /home/mca/inter-flask
-OR
+docker swarm --init --advertise-addr:192.168.56.10 
+unknown flag: --init
 
-sudo chown -R $(whoami):$(whoami) /home/mca/inter-flask
-vagrant up
+Usage:  docker swarm
+
+Run 'docker swarm --help' for more information
