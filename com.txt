@@ -14,3 +14,7 @@ permission denied while trying to connect to the docker API at unix:///var/run/d
 
 //SUDO USE DO
 sudo docker swarm init --advertise-addr 192.168.56.10
+
+
+sudo docker swarm init --advertise-addr 192.168.56.10
+Error response from daemon: must specify a listening address because the address to advertise is not recognized as a system address, and a system's IP address to use could not be uniquely identified
